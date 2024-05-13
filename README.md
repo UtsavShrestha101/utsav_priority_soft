@@ -46,7 +46,7 @@ This is a record of the orders that the user has placed. The fields it contains 
     - size
     - color
 
-#### In order to obtain a persistent user ID, I have implemented the use of two packages in my Flutter application. Firstly, I have used the 'flutter_udid: ^3.0.0' package to retrieve a unique identifier for each device that the application is installed on. Secondly, I have utilized the 'uuid: ^4.4.0' package to generate a unique identifier for each order placed within the application. This ID is then associated with a unique user ID, which is obtained from the 'flutter_udid' package. Finally, each order is stored as a separate document in the 'myOrders' collection, with its own unique identifier. This scheme ensures that each order can be easily identified and tracked within the application.
+### In order to obtain a persistent user ID, I have implemented the use of two packages in my Flutter application. Firstly, I have used the 'flutter_udid: ^3.0.0' package to retrieve a unique identifier for each device that the application is installed on. Secondly, I have utilized the 'uuid: ^4.4.0' package to generate a unique identifier for each order placed within the application. This ID is then associated with a unique user ID, which is obtained from the 'flutter_udid' package. Finally, each order is stored as a separate document in the 'myOrders' collection, with its own unique identifier. This scheme ensures that each order can be easily identified and tracked within the application.
 
 ## Features
 A UtsavPriority Soft app built with BLOC pattern. It has following features
@@ -58,10 +58,19 @@ A UtsavPriority Soft app built with BLOC pattern. It has following features
 - Runs on both Android & IOS.
 
 
+## Additional features which has been added
+- Push Notification
+- Pull to refresh 
+- Item count indicator in the badge
 
 
 
 
+
+
+## Recording
+
+https://drive.google.com/file/d/1CnRidm9JagZXOqg9eYyvpRFEXKsXjWBG/view?usp=drive_link
 
 ## Screenshots
 
@@ -78,4 +87,5 @@ A UtsavPriority Soft app built with BLOC pattern. It has following features
 ![6](https://github.com/UtsavShrestha101/utsav_priority_soft/assets/70084913/e88b0aa1-64e8-414a-830b-cc83a58c5195)
 - ### Order Summary
 ![7](https://github.com/UtsavShrestha101/utsav_priority_soft/assets/70084913/13dd534d-eecd-4d9f-89fc-040757555680)
+
 
