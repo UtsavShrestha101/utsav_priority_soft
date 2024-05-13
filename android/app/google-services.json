@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835877305153",
+    "project_id": "priority-soft-df414",
+    "storage_bucket": "priority-soft-df414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835877305153:android:58b5113f610e65c8fcbfc0",
+        "android_client_info": {
+          "package_name": "com.utsavcode.priority"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtnb_Ht8yqZZs4W21JRZS9qM5bujNF3oE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
